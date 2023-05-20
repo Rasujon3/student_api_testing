@@ -42,32 +42,48 @@ npm install -g newman-reporter-htmlextra
 2. ### Verify Crated Student Details
 	> In the test case you need to validate the following field values:
  	1. > First Name
- 	2. > Last Name
- 	3. > totalprice
-	4. > depositpaid
-	5. > bookingdates
-	6. > additionalneeds
+ 	2. > Middle Name
+ 	3. > Last Name
+ 	4. > Date of Birth
 
-3. ### Update Student Address
+3. ### Update Student
 	> In the test case you need to validate the following field values:
  	1. > Only Message
-4. ### Verify Verify Updated Student Address
+4. ### Verify Verify Updated Student Details
 	> In the test case you need to validate the following field values:
 	1. > First Name
- 	2. > Last Name
- 	3. > totalprice
-	4. > depositpaid
-	5. > bookingdates
-	6. > additionalneeds
+ 	2. > Middle Name
+	3. > Last Name
+ 	4. > Date of Birth
 
-5. ### Get the student Full Details
+5. ### Create Technical skills Create Student Address
+	> In the test case you need to validate the following field values:
+	1. > Only Message
+
+6. ### Create a Student Address
+	> In the test case you need to validate the following field values:
+	1. > Only Message
+
+7. ### Get the Student's Full Details
 	> In the test case you need to validate the following field values:
 	1. > First Name
- 	2. > Last Name
- 	3. > totalprice
-	4. > depositpaid
-	5. > bookingdates
-	6. > additionalneeds
+	2. > Middle Name
+	3. > Last Name
+	4. > Date of Birth
+	5. > Language
+	6. > Year Of Experience
+	7. > Last Used Date
+	8. > House Number
+	9. > City
+	10. > State
+	11. > Country
+	12. > Std Code
+	13. > Home Address
+	14. > Mobile
+
+8. ### Delete Specific Student
+	> In the test case you need to validate the following field values:
+	1. > Only Message
 
 ## Newman Report Summary:
 ![Student_Rest_API_Summary](https://user-images.githubusercontent.com/61946723/235213898-22e8089f-8c0e-48d7-8dbc-58f7e9c5a7ca.png)
